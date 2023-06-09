@@ -1,0 +1,62 @@
+p.p1{
+    color: #6C6C6C;
+    text-align: center;
+    font-size: 250%;
+    font-family: Verdana , monospace;
+}
+
+body{
+    background-color:rgb(255, 249, 240);
+    height: match-content;
+}
+
+img{
+    max-width:17%;
+    height: auto;
+    float: left;
+    position: relative;
+    left: 250px;
+}
+
+.text{
+    font-family: Verdana, Tahoma, sans-serif;
+    position: relative;
+    left: 400px;
+    top: 5px;
+    width: 800px;
+}
+
+.insta{
+    color: #000000;
+    border-radius: 0%;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.insta:hover{
+    color: #6C6C6C;
+    transition:0.2s; 
+}
+
+@media screen and (max-width: 767px) {
+    p.p1{
+        width: 100vh;
+        text-align: center;
+    }
+    body {
+        background-color:rgb(255, 249, 240);
+    }
+    img{
+        max-width:30vh;
+        height: 50vh;
+        left: 30%;
+    }
+    .text{
+        text-align: left;
+        left: 200px;
+        bottom: 200px;
+        font-family: Verdana, Tahoma, sans-serif;
+        width: 400px;
+        height: 370px;
+    }
+}
